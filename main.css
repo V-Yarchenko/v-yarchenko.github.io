@@ -12,9 +12,8 @@
 body, html {
 	height: 100%;
 	width: 100%;
-	font-family:"Open Sans", sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+  line-height: 1.43;
 }
 
 ul, li {
@@ -25,6 +24,11 @@ ul, li {
 
 a {
 	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
 }
 
 .wrapper {
@@ -41,9 +45,10 @@ a {
 .title{
 	color: #fff;
 	font-weight: 700;
-	font-size: 49px;
+	font-size: 50px;
 	text-transform: uppercase;
 	text-align: center;
+	letter-spacing: 1px;
 }
 
 .title--black{
@@ -51,32 +56,35 @@ a {
 }
 
 .header {
-	min-height: 77px;
+	min-height: 75px;
 	background-color: #131415;
-	padding: 20px 0;
+	padding: 15px 0;
 }
 
 .logo {
 	display: inline-block;
-	width: 15%;
+	width: 21%;
 }
 
 .logo__text {
 	font-size: 18px;
+	font-weight: 400;
 	font-family: "GoraFree";
 	color: #f89513;
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .nav {
 	display: inline-block;
-	width: 67%;
+	width: 58%;
 	text-align: center;
 }
 
 .nav__item {
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 25px;
+	letter-spacing: 1px;
 }
 
 .nav__item:last-child {
@@ -92,7 +100,7 @@ a {
 	color: #fff;
 	font-size: 12px;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .nav__link:hover {
@@ -103,14 +111,14 @@ a {
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
-	margin-right: 15px;
+	margin-right: 12px;
 	background: center center / contain no-repeat;
 }
 
 .nav__link--puls:before {
 	background-image: url(img/head-icon/puls_icon.png);
-	height: 15px;
-	width: 17px;
+	height: 17px;
+	width: 19px;
 }
 
 .nav__link--star:before {
@@ -126,24 +134,20 @@ a {
 }
 
 .nav__link--puls:hover::before {
-	background: none;
+	background-image: url(img/head-icon/puls_icon_orange.png);
 }
 
 .nav__link--star:hover::before {
-	background:  none;
+	background-image: url(img/head-icon/star_icon_orange.png);
 }
 
 .nav__link--gym:hover::before {
-	background:  none;
-}
-
-.nav__item--active .nav__link--puls:before {
-	background: none;
+	background-image: url(img/head-icon/gym_icon_orange.png);
 }
 
 .contacts {
 	display: inline-block;
-	width: 17%;
+	width: 20%;
 	font-weight: 700;
 	color: #fff;
 	text-align: right;
@@ -152,19 +156,20 @@ a {
 
 .contacts__phone {
 	color: #fff;
-	text-transform: uppercase;
 	font-size: 21px;
+	font-weight: 600;
 }
 
 .contacts__schedule {
 	color: #c77814;
 	text-decoration: underline;
 	font-size: 14px;
+	cursor: pointer;
 }
 
 .main {
 	background-color: #fff;
-	margin-top: 80px;
+	margin-top: 78px;
 }
 
 .hero__content {
@@ -176,14 +181,14 @@ a {
 }
 
 .features {
-	margin-top: 80px;
+	margin-top: 53px;
 	background-color: #131415;
-	padding: 65px 0 100px 0;
+	padding: 49px 0 95px 0;
 	color: #fff;
 }
 
 .features__title{
-	margin-bottom: 60px;
+	margin-bottom: 45px;
 	text-align: center;
 }
 
@@ -193,9 +198,10 @@ a {
 
 .features__item{
 	display: inline-block;
-	margin-right: 70px;
-	width: 15%;
+	margin-right: 55px;
+	width: 20%;
 	text-align: center;
+	font-size: 18px;
 }
 
 .features__item:last-child{
@@ -221,11 +227,22 @@ a {
 .features__subtitle {
 	text-transform: uppercase;
 	font-size: 11px;
-	font-weight: 700;
+	font-weight: 800;
+	letter-spacing: 2px;
+	margin-top: 33px;
+}
+
+.features__lead {
+	font-size: 18px;
+	margin-top: 23px;
+	line-height: 1.5;
 }
 
 .features__desc-list{
+	margin-top: -16px;
 	text-align: left;
+	font-weight: 400;
+	line-height: 2;
 }
 
 .features__desc-item{
@@ -244,25 +261,27 @@ a {
 }
 
 .news{
-	margin-top: 70px;
+	margin-top: 51px;
 }
 
 .last-news__content-main {
 	display: inline-block;
-	width: 73%;
+	width: 83%;
 	vertical-align: top;
-	margin-top: 70px;
-	margin-right: 20px;
+	margin-top: 62px;
+	margin-right: 18px;
 }
 
 .last-news__item{
 	border-bottom: 2px solid #f5f5f5;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .last-news__item:last-child{
 	border-bottom: none;
+	margin-bottom: 0;
+	padding: 0;
 }
 
 .item__block-pic {
@@ -271,7 +290,7 @@ a {
 	width: 160px;
 	border-radius: 50%;
 	overflow: hidden;
-	margin-right: 20px;
+	margin-right: 17px;
 	vertical-align: top;
 }
 
@@ -283,28 +302,54 @@ a {
 
 .item__desc{
 	display: inline-block;
-	width: 75%;
+	width: 79%;
+}
+
+.item__date {
+	color: #6f6e6e;
+	font-size: 14px;
+	font-weight: 600;
+  margin-top: -4px;
+}
+
+.item__title {
+	font-weight: 700;
+	font-size: 16px;
+  margin-top: 3px;
+}
+
+.item__text {
+	margin-top: 11px;
+	font-size: 17px;
+	line-height: 1.8;
 }
 
 .sidebar {
 	display: inline-block;
-	width: 24%;
-	margin-top: 70px;
+	width: 14%;
+	margin-top: 62px;
 	margin-right: 0;
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .sidebar__top-news {
-	margin-bottom: 12px;
+	font-size: 12px;
 	font-weight: 700;
+	margin-bottom: 4px;
 }
 
 .sidebar__period {
-	margin-bottom: 28px;
+	font-size: 12px;
 }
 
+.sidebar__item {
+	margin-top: 18px;
+}
+
+
 .pagination{
-	margin-top: 120px;
+	margin-top: 18px;
 	text-align: center;
 }
 
@@ -313,7 +358,8 @@ a {
 }
 
 .pagination__display {
-	margin-right: 30px;
+	font-size: 13px;
+	margin-right: 20px;
 }
 
 .pagination__button {
@@ -325,19 +371,21 @@ a {
 }
 
 .pagination__item {
-	margin-right: 18px;
+	margin-right: 14px;
 }
 
 .pagination__link {
+	font-size: 14px;
 	font-weight: 700;
 	color: black;
 }
 
 .pagination__link--active {
 	display: inline-block;
-	height: 21px;
-	width: 21px;
-	color: #fff;
+	height: 23px;
+	width: 23px;
+	border-radius: 15%;
+	color: #f89513;
 	background-color: black;
 }
 
@@ -346,58 +394,71 @@ a {
 }
 
 .footer {
-	margin-top: 120px;
+	margin-top: 70px;
 	min-height: 77px;
 	background-color: #131415;
-	padding: 20px 0;
+	padding: 10px 0;
+	letter-spacing: 1px;
 }
 
 .footer__desc {
 	display: inline-block;
 	color: #fff;
 	width: 23%;
+	font-size: 14px;
+	font-weight: 300;
 	vertical-align: middle;
+	line-height: 1.2;
+	letter-spacing: normal;
 }
 
 .footer__link {
-	color: #dedede;
+	color: #fff;
 	font-weight: 700;
 	text-decoration: underline;
 }
 
 .footer__logo{
 	display: inline-block;
-	width: 59%;
+	width: 49%;
 	text-align: center;
 }
 
-.footer__logo--text{
+.logo__text {
 	font-size: 18px;
-	font-family: 'GoraFree';
+	font-weight: 400;
+	font-family: "GoraFree";
 	color: #f89513;
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .social {
 	display: inline-block;
 	color: #fff;
-	width: 17%;
+	width: 26%;
 	vertical-align: middle;
+	padding-left: 100px;
 }
 
 .social__desc {
 	font-size: 14px;
 	font-weight: 700;
+	letter-spacing: normal;
 }
 
 .social__list {
-	margin-top: 12px;
+	margin-top: 8px;
 }
 
 .social__item {
 	display: inline-block;
 	text-align: left;
-	margin-right: 10px;
+	margin-right: 5px;
+}
+
+.social__item:last-child {
+	margin-right: 0;
 }
 
 .social__back{
