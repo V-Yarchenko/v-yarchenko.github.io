@@ -41,7 +41,7 @@
 }
 
 .nav__link--puls:before {
-	background-image: url(/img/head-icon/puls_icon_orange.png);
+	background-image: url(/img/head-icon/puls_icon.png);
 	height: 17px;
 	width: 19px;
 }
@@ -54,6 +54,24 @@
 
 .nav__link--gym:before {
 	background-image: url(/img/head-icon/gym_icon.png);
+	height: 16px;
+	width: 20px;
+}
+
+.nav__item--active  .nav__link--puls:before {
+	background-image: url(/img/head-icon/puls_icon_orange.png);
+	height: 17px;
+	width: 19px;
+}
+
+.nav__item--active .nav__link--star:before {
+	background-image: url(/img/head-icon/star_icon_orange.png);
+	height: 18px;
+	width: 20px;
+}
+
+.nav__item--active .nav__link--gym:before {
+	background-image: url(/img/head-icon/gym_icon_orange.png);
 	height: 16px;
 	width: 20px;
 }

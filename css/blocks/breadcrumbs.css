@@ -1,11 +1,11 @@
 .breadcrumbs__list, .breadcrumbs__item {
   display: flex;
+  align-items: center;
 }
 
 .breadcrumbs__item:after {
   content: '/';
   display: inline-block;
-  vertical-align: center;
 }
 
 .breadcrumbs__item--active:after {
