@@ -1,0 +1,44 @@
+.social {
+	color: #fff;
+	vertical-align: middle;
+}
+
+.social__desc {
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: normal;
+}
+
+.social__list {
+	margin-top: 8px;
+}
+
+.social__item {
+	display: inline-block;
+	text-align: left;
+	margin-right: 5px;
+}
+
+.social__item:last-child {
+	margin-right: 0;
+}
+
+.social__back{
+	display: inline-block;
+	height: 21px;
+	width: 21px;
+	background-color: #d0d0d0;
+	border-radius: 50%;
+	position: relative;
+}
+
+.social__back:hover {
+	background-color: #f89513;
+}
+
+.social__icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

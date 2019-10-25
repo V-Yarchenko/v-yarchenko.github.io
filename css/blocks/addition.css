@@ -1,0 +1,21 @@
+.addition {
+  background-color: #131415;
+  background-image: url(/img/comments/pattern.png);
+  background-size: 100%;
+  padding-top: 2px;
+  margin-top: 60px;
+  margin-bottom: 68px;
+}
+
+.addition__text {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 1.8;
+  padding: 0px 200px 24px 200px;
+}
+
+.addition__text span {
+  color: #f89513;
+  font-weight: bold;
+}

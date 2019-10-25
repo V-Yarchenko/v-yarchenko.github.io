@@ -1,0 +1,18 @@
+.contacts {
+	font-weight: 700;
+	color: #fff;
+	text-align: right;
+}
+
+.contacts__phone {
+	color: #fff;
+	font-size: 21px;
+	font-weight: 600;
+}
+
+.contacts__schedule {
+	color: #c77814;
+	text-decoration: underline;
+	font-size: 14px;
+	cursor: pointer;
+}

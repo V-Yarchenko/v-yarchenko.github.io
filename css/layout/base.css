@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+  line-height: 1.43;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.container {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.container--others {
+	width: 880px;
+}
+
+.title{
+	color: #fff;
+	font-weight: 700;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.title--black{
+	color: black;
+}

@@ -1,0 +1,28 @@
+.sidebar {
+	margin-top: 62px;
+	margin-right: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.sidebar__top-news {
+	font-size: 12px;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+
+.sidebar__period {
+	font-size: 12px;
+}
+
+.sidebar__list {
+	margin-top: 18px;
+}
+
+.sidebar__item {
+	margin-top: 18px;
+}
+
+.sidebar__item:first-child {
+	margin-top: 0;
+}

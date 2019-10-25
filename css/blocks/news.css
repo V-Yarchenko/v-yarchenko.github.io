@@ -1,0 +1,7 @@
+.news{
+	margin-top: 51px;
+}
+
+.news__content {
+	display: flex;
+}

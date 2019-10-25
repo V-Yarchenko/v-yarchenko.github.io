@@ -1,0 +1,12 @@
+.logo {
+	display: inline-block;
+}
+
+.logo__text {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: "GoraFree";
+	color: #f89513;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
