@@ -2,17 +2,17 @@
   background-color: #131415;
   background-image: url(/img/comments/pattern.png);
   background-size: 100%;
-  padding-top: 2px;
-  margin-top: 60px;
-  margin-bottom: 68px;
+  padding: 4px 23px 8px ;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 25px;
 }
 
 .addition__text {
   color: #fff;
   font-weight: lighter;
   font-size: 18px;
-  line-height: 1.8;
-  padding: 0px 200px 24px 200px;
+  line-height: 1.7;
 }
 
 .addition__text span {

@@ -1,7 +1,13 @@
-.news{
-	margin-top: 51px;
+.news {
+	margin-top: -4px;
+	margin-bottom: 50px;
 }
 
 .news__content {
 	display: flex;
+}
+
+.news .pagination {
+	margin-top: 49px;
+	margin-left: 194px;
 }

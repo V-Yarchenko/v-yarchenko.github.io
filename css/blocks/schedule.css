@@ -1,0 +1,48 @@
+.schedule {
+  position: absolute;
+  width: 160px;
+  right: 9999px;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow:  0 0 13px #b0b9c9;
+  opacity: 0;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 2px;
+  padding: 10px 20px;
+}
+
+.contacts__schedule:hover .schedule {
+  transition: opacity 0.5s;
+  opacity: 1;
+  right: 0;
+}
+
+
+.schedule__item-work {
+  color: #f89513;
+  font-weight: 700;
+}
+
+
+.schedule::before {
+  content: "";
+  display: inline-block;
+  border: 15px solid transparent;
+  border-bottom-color: #fff;
+  position: absolute;
+  bottom: 100%;
+  right: 20px;
+}
+
+.schedule::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 22px;
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+}

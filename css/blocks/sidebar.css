@@ -1,8 +1,8 @@
 .sidebar {
-	margin-top: 62px;
-	margin-right: 0;
+	margin-top: 60px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 2.3px;
+	margin-bottom: 37px;
 }
 
 .sidebar__top-news {
@@ -12,6 +12,8 @@
 }
 
 .sidebar__period {
+	color: #737272;
+	font-weight: 700;
 	font-size: 12px;
 }
 
@@ -20,9 +22,13 @@
 }
 
 .sidebar__item {
-	margin-top: 18px;
+	margin-top: 16px;
 }
 
 .sidebar__item:first-child {
 	margin-top: 0;
+}
+
+.sidebar__pic {
+	min-width: 171px;
 }

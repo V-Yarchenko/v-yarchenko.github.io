@@ -1,5 +1,11 @@
 .services {
-  margin-top: 7px;
+  margin-top: 42px;
+  margin-bottom: 40px;
+  width: 840px;
+}
+
+.services-title {
+  margin-top: 5px;
 }
 
 .services__list {
@@ -12,7 +18,7 @@
 }
 
 .services__item {
-  width: 29%;
+  width: 30%;
   margin-bottom: 29px;
 }
 
@@ -41,12 +47,13 @@
 
 .services__label {
   position: absolute;
-  top: 50%;
-  left: 47%;
+  top: 51%;
+  left: 48%;
   transform : translate(-50%,-50%);
   text-transform: uppercase;
   font-size: 25px;
-  font-weight: bold; 
+  font-weight: bold;
+  text-align: center;
   color: #fff;
   z-index: 5;
 }

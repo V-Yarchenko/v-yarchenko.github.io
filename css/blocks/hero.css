@@ -1,10 +1,7 @@
-.hero {
-	margin-top: 78px;
+.hero__content {
+	padding-left: 13px;
 }
 
-.hero__content {
-	text-align: center;
-}
 
 .hero__pic {
 	max-height: 100%;

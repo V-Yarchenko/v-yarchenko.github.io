@@ -1,8 +1,7 @@
 .footer {
-	margin-top: 70px;
-	min-height: 77px;
+	min-height: 86px;
 	background-color: #131415;
-	padding: 10px 0;
+	padding: 13px 0;
 	letter-spacing: 1px;
 }
 
@@ -26,9 +25,3 @@
 	font-weight: 700;
 	text-decoration: underline;
 }
-
-.footer__logo{
-	align-items: center;
-	margin-right: 65px;
-}
-

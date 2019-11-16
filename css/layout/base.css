@@ -31,8 +31,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 1060px;
+	width: 1160px;
 	margin: 0 auto;
+}
+
+.container__main {
+	display: flex;
+	justify-content: space-between;
 }
 
 .container--others {
@@ -40,18 +45,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .title{
-	color: #fff;
+	color: #000;
 	font-weight: 700;
 	font-size: 50px;
 	text-transform: uppercase;
-	text-align: center;
 	letter-spacing: 1px;
-}
-
-.title--black{
-	color: black;
-}
-
-.title--left {
-	text-align: left;
 }

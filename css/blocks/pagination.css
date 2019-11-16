@@ -1,9 +1,8 @@
 .pagination{
 	font: 14px / 1.42 "roboto", Arial, sans-serif;
-	margin-top: 18px;
 	text-align: center;
 	display: flex;
-	justify-content: center;
+	margin-left: 110px;
 	align-items: center;
 }
 
@@ -46,8 +45,10 @@
 	border-radius: 15%;
 	color: #f89513;
 	background-color: black;
+	line-height: 23px;
 }
 
 .pagination__link:hover {
+	transition: color .2s;
 	color: #f89513;
 }

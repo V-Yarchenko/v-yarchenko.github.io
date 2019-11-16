@@ -11,8 +11,11 @@
 }
 
 .contacts__schedule {
-	color: #c77814;
-	text-decoration: underline;
+	position: relative;
 	font-size: 14px;
-	cursor: pointer;
+}
+
+.contacts__schedule-link {
+  color: #c77814;
+	text-decoration: underline;
 }
